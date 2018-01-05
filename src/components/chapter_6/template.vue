@@ -2,8 +2,8 @@
 <div class="d3-chapter-base__wrapper">
     <p>绘制</p>
     <div class="d3-chapter-base__tab">
-        <router-link to="/colors">颜色</router-link>
-        <router-link to="/generators">生成器/形状</router-link>
+        <router-link to="/colors">colors</router-link>
+        <router-link to="/line">line</router-link>
     </div>
     <router-view></router-view>   
 </div>

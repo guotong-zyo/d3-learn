@@ -109,10 +109,10 @@ const routes = [
                     }
                 },
                 {
-                    path: '/generators',
-                    name: 'generators',
+                    path: '/line',
+                    name: 'line',
                     components: {
-                        default: () => import('./components/chapter_6/generators')
+                        default: () => import('./components/chapter_6/line')
                     }
                 },
             ]
