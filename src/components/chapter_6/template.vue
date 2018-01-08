@@ -4,6 +4,9 @@
     <div class="d3-chapter-base__tab">
         <router-link to="/colors">colors</router-link>
         <router-link to="/line">line</router-link>
+        <router-link to="/area">area</router-link>
+        <router-link to="/arcs">arcs</router-link>
+        <router-link to="/lineChart">lineChart</router-link>
     </div>
     <router-view></router-view>   
 </div>

@@ -115,6 +115,27 @@ const routes = [
                         default: () => import('./components/chapter_6/line')
                     }
                 },
+                {
+                    path: '/area',
+                    name: 'area',
+                    components: {
+                        default: () => import('./components/chapter_6/area')
+                    }
+                },
+                {
+                    path: '/arcs',
+                    name: 'arcs',
+                    components: {
+                        default: () => import('./components/chapter_6/arcs')
+                    }
+                },
+                {
+                    path: '/lineChart',
+                    name: 'lineChart',
+                    components: {
+                        default: () => import('./components/chapter_6/lineChart')
+                    }
+                },
             ]
         },
     ]
