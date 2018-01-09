@@ -138,6 +138,22 @@ const routes = [
                 },
             ]
         },
+        {
+            path: '/chapter_7',
+            name: 'chapter_7',
+            components: {
+                default: () => import('./components/chapter_7/template')
+            },
+            children: [
+                {
+                    path: '/transition',
+                    name: 'transition',
+                    components: {
+                        default: () => import('./components/chapter_7/transition')
+                    }
+                },
+            ]
+        },
     ]
   }
 ];
