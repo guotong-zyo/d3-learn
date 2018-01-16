@@ -19,6 +19,9 @@
             <li class="d3-sidebar__item">
                 <router-link to="chapter_7">7-动画</router-link>
             </li>
+            <li class="d3-sidebar__item">
+                <router-link to="chapter_8">8-交互</router-link>
+            </li>
         </ul>
     </div>
 </template>
