@@ -152,6 +152,13 @@ const routes = [
                         default: () => import('./components/chapter_7/transition')
                     }
                 },
+                {
+                    path: '/scatter_2',
+                    name: 'scatter_2',
+                    components: {
+                        default: () => import('./components/chapter_7/scatter_2')
+                    }
+                }
             ]
         },
     ]
