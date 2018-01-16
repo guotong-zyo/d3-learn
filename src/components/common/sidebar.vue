@@ -8,19 +8,19 @@
                 <router-link to="canvas">canvas-基础</router-link>
             </li>
             <li class="d3-sidebar__item">
-                <router-link to="chapter_4">4-选择集与数据</router-link>
+                <router-link to="selection&data">4-选择集与数据</router-link>
             </li>
             <li class="d3-sidebar__item">
-                <router-link to="chapter_5">5-比例尺和坐标</router-link>
+                <router-link to="scale&Axis">5-比例尺和坐标</router-link>
             </li>
             <li class="d3-sidebar__item">
-                <router-link to="chapter_6">6-绘制</router-link>
+                <router-link to="draw">6-绘制</router-link>
             </li>
             <li class="d3-sidebar__item">
-                <router-link to="chapter_7">7-动画</router-link>
+                <router-link to="animation">7-动画</router-link>
             </li>
             <li class="d3-sidebar__item">
-                <router-link to="chapter_8">8-交互</router-link>
+                <router-link to="interaction">8-交互</router-link>
             </li>
         </ul>
     </div>
