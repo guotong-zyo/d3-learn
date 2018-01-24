@@ -190,6 +190,22 @@ const routes = [
                     }
                 }
             ]
+        },
+        {
+            path: '/layout',
+            name: 'layout',
+            components: {
+                default: () => import('./components/layout/template')
+            },
+            children: [
+                {
+                    path: '/pie',
+                    name: 'pie',
+                    components: {
+                        default: () => import('./components/layout/pie')
+                    }
+                }
+            ]
         }
     ]
   }

@@ -22,6 +22,9 @@
             <li class="d3-sidebar__item">
                 <router-link to="interaction">8-交互</router-link>
             </li>
+            <li class="d3-sidebar__item">
+                <router-link to="layout">10-布局</router-link>
+            </li>
         </ul>
     </div>
 </template>
